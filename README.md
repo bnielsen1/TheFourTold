@@ -1,7 +1,6 @@
 # TheFourTold
 
 Contributors:
-
-* Brian Nielsen
-* and many more
-
+- Brian Nielsen
+- Roy Remens Tragg
+- and many more
