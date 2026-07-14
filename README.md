@@ -2,4 +2,5 @@
 
 Contributors:
 - Brian Nielsen
-- Roy Remens Tragg
+- Roy Remens
+- Christopher Martens
