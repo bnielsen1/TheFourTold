@@ -1,4 +1,7 @@
 # TheFourTold
 
 Contributors:
-- Brian Nielsen
+
+* Brian Nielsen
+* Christopher Martens
+
