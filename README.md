@@ -1,1 +1,4 @@
 # TheFourTold
+
+Contributors:
+- Brian Nielsen
