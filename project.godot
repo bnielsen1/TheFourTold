@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="The Four Told"
-run/main_scene="uid://bx1pvt2cb2aus"
+run/main_scene="uid://d1xdf7xpdw17r"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
