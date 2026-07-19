@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d2jt4cwys5ass"]
 
-[ext_resource type="Script" uid="uid://44s5mfigg2vw" path="res://Aphelion_dir/scripts/player.gd" id="1_g61p0"]
+[ext_resource type="Script" uid="uid://44s5mfigg2vw" path="res://AphelionDir/scripts/player.gd" id="1_g61p0"]
 [ext_resource type="Texture2D" uid="uid://cw443eru5ien1" path="res://assets/girl.png" id="2_8tuek"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7034y"]
@@ -195,7 +195,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_poxdx"]
-height = 36.0
+height = 20.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1630991108]
 z_index = 5
@@ -207,5 +207,5 @@ animation = &"idle front"
 autoplay = "idle front"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2014277004]
-position = Vector2(0, -1)
+position = Vector2(0, 9)
 shape = SubResource("CapsuleShape2D_poxdx")
