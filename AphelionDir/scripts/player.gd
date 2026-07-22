@@ -1,6 +1,4 @@
-extends CharacterBody2D
-
-class_name Player
+class_name Player extends CharacterBody2D
 
 const BASESPEED = 100
 var speed: float
