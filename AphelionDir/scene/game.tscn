@@ -1,7 +1,5 @@
 [gd_scene format=4 uid="uid://bx1pvt2cb2aus"]
 
-[ext_resource type="PackedScene" uid="uid://d2jt4cwys5ass" path="res://AphelionDir/scene/player.tscn" id="1_70bhh"]
-[ext_resource type="Script" uid="uid://bm6p8u5rkpr64" path="res://AphelionDir/scene/game.gd" id="1_w4ids"]
 [ext_resource type="Texture2D" uid="uid://dsoyiotuycdb1" path="res://assets/Pixel Art Topdown Pack/TX Tileset Grass.png" id="2_pe8w4"]
 [ext_resource type="Texture2D" uid="uid://ctf8wre7335b4" path="res://assets/hyptosis art/hyptosis_tile-art-batch-5.png" id="3_huk8j"]
 [ext_resource type="Texture2D" uid="uid://pj3vfq6aiscc" path="res://assets/hyptosis art/hyptosis_tile-art-batch-4.png" id="4_8mprx"]
@@ -6840,16 +6838,6 @@ sources/2 = SubResource("TileSetAtlasSource_2tded")
 size = Vector2(50, 59.5)
 
 [node name="game" type="Node2D" unique_id=181058421]
-script = ExtResource("1_w4ids")
-
-[node name="Player" parent="." unique_id=1630991108 instance=ExtResource("1_70bhh")]
-
-[node name="Camera2D" type="Camera2D" parent="Player" unique_id=802258187]
-zoom = Vector2(3, 3)
-limit_left = -480
-limit_top = -270
-limit_right = 480
-limit_bottom = 270
 
 [node name="TileSets" type="Node2D" parent="." unique_id=439309387]
 
@@ -6885,6 +6873,7 @@ shape = SubResource("WorldBoundaryShape2D_poxdx")
 
 [node name="SceneTrigger" parent="." unique_id=2036303742 instance=ExtResource("6_8ccil")]
 position = Vector2(-256, -91)
+dest_scene = "house"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SceneTrigger" unique_id=301110381]
 shape = SubResource("RectangleShape2D_g5sn6")

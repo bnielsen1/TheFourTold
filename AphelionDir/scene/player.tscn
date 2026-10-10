@@ -209,3 +209,10 @@ autoplay = "idle front"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2014277004]
 position = Vector2(0, 9)
 shape = SubResource("CapsuleShape2D_poxdx")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1184413448]
+zoom = Vector2(3, 3)
+limit_left = -480
+limit_top = -270
+limit_right = 480
+limit_bottom = 270
